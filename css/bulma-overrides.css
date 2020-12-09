@@ -1,0 +1,83 @@
+a.navbar-item:hover {
+  transition: all 0.2s ease;
+  color: var(--brand-primary);
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+.button.is-primary {
+  background-color: var(--brand-primary);
+}
+
+.button.is-primary:hover {
+  background-color: var(--brand-primary-dark);
+}
+
+.button.is-secondary {
+  color: var(--white);
+  background-color: var(--brand-secondary);
+}
+
+.button.is-secondary:hover {
+  background-color: var(--brand-secondary-dark);
+}
+
+.hero-body {
+  padding: 40px 0;
+  background-color: var(--light-gray);
+}
+
+.hero.is-primary .title {
+  color: var(--brand-secondary);
+}
+
+.hero.is-primary .subtitle {
+  color: var(--neutral-gray);
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.modal-background {
+  cursor: pointer;
+}
+
+.modal-card {
+  cursor: default;
+}
+
+.modal-card-body {
+  padding: 0;
+  height: auto;
+}
+
+.modal-card,
+.modal-content {
+  width: auto;
+  height: auto;
+}
+
+.progress {
+  position: fixed;
+  top: 57px;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+
+.progress.is-active {
+  display: flex;
+}
+
+.progress.is-primary:indeterminate {
+  height: 5px;
+  margin: 0;
+  background-image: linear-gradient(
+    to right,
+    var(--brand-secondary) 30%,
+    var(--light-gray) 30%
+  );
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A Vanilla Javascript with full SPA behavior"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, SPA" />
+    <meta name="author" content="Renato Lins" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Javascript SPA</title>
+    <link rel="stylesheet" href="css/vendor-libs/bulma.min.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/app-styles.css" />
+    <link rel="stylesheet" href="css/bulma-overrides.css" />
+    <link rel="stylesheet" href="css/card.css" />
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">User name</p>
+          <button class="delete close-modal" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+          <div class="user-photo-container"></div>
+        </section>
+        <footer class="modal-card-foot">
+          <span class="modal-footer-details"></span>
+        </footer>
+      </div>
+    </div>
+    <header class="app-header">
+      <nav
+        class="navbar app-nav"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/#/">
+            <img src="img/logo.png" height="28" />
+          </a>
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a href="/#/users" class="navbar-item">Users</a>
+            <a href="/#/search-log" class="navbar-item">Search Log</a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary about-button">
+                  <strong>About</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <header>
+        <progress class="progress is-small is-primary" max="100">50%</progress>
+        <section class="hero is-primary">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title">Github users´s search</h1>
+              <h2 class="subtitle page-description"></h2>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <div class="container app-container" id="app-root">
+        {# Wehere pages are rendered #}
+      </div>
+    </main>
+    <footer>Developed by Renato Lins</footer>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script>
+
+    <script type="module" defer src="js/configs/routes.config.js"></script>
+    <script type="module" defer src="js/main.js"></script>
+  </body>
+</html>
