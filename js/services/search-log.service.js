@@ -7,8 +7,9 @@ const saveToSearchLog = (term) => {
   localStorage.setItem('searchEntries', searchEntriesUpdated);
 }
 
-const fetchSearchEntries = () =>
-  JSON.parse(localStorage.getItem('searchEntries'))
-    .map(entry=>JSON.parse(entry)) || [];
+const fetchSearchEntries = () => {
+  const entries = JSON.parse(localStorage.getItem('searchEntries')) || [];
+  return entries.map(entry => JSON.parse(entry));
+}
 
 export { saveToSearchLog, fetchSearchEntries }; 
