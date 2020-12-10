@@ -8,6 +8,9 @@ html,
 body {
   background-color: var(--ice-gray);
   color: var(--neutral-gray);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header */
@@ -93,14 +96,22 @@ header.app-header {
 
 footer {
   font-style: italic;
-  padding: 40px 15px;
-  display: flex;
-  width: 100%;
-  max-width: 1334px;
-  margin: 0 auto;
+  justify-content: center;
+  padding: 40px 0;
+  margin-top: auto;
+  background-color: var(--light-gray);
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.footer-text svg {
+  fill: var(--brand-primary-dark);
 }
 
 /* Responsive */
+
 @media (max-width: 980px) {
   .cards-container {
     grid-template-columns: 1fr 1fr;
@@ -128,6 +139,7 @@ span {
 }
 
 /* Scroll bars */
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
