@@ -1,6 +1,16 @@
 # Vanilla Javascript SPA
 
-This project is about building a Single Page Application with a modern look and feel, by using just Vanilla JS. See this in action [here](https://vanilla-js-spa.doolien.repl.co).
+This project is about adding to my portfolio a Single Page Application built with just Vanilla JS. See this in action [here](https://vanilla-js-spa.doolien.repl.co).
+
+# Screenshots
+
+## Home
+
+![Home](screenshots/01.png)
+
+## Search term log
+
+![Search term log](screenshots/02.png)
 
 ## Running The project
 
