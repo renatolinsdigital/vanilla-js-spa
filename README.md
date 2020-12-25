@@ -6,6 +6,15 @@ This project is about building a Single Page Application with a modern look and 
 
 Considering this project uses ES6 modules - that are subject to Same-origin policy - messing with files requires a local server like  __live-server__(for instance), which can be easily installed on VS Code.
 
+## Key features:
+
+- The app is fully responsive
+- Search log history can be used to trigger same searches again
+- Search log history is precisely dated, showing always the last searches
+- Search log is saved to local storage
+- Searching terms also works in the url
+- Routing between pages keeps navigation history 
+
 ## Project intentional restrictions:
 
 - No Javascript frameworks

@@ -7,8 +7,8 @@ const fetchUsers = (userLogin) => new Promise(async (resolve, reject) => {
     const users = await usersFromApi.json();
     resolve(users);
   }
-  catch (e) {
-    console.error(e);
+  catch (error) {
+    console.error(error);
     reject('Data couldn´t be fetched');
   }
 });

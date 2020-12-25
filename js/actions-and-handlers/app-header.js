@@ -12,13 +12,13 @@ const attachAppHeaderHandlers = () => {
     navBarMenu.classList.toggle('is-active');
   });
 
-  navBarStart.addEventListener('click', (e) => {
+  navBarStart.addEventListener('click', () => {
     navBarBurguer.classList.remove('is-active');
     navBarMenu.classList.remove('is-active');
   });
 
-  aboutButton.addEventListener('click', (e) => {
-    e.preventDefault();
+  aboutButton.addEventListener('click', (event) => {
+    event.preventDefault();
     const mySelf = { name: 'Renato Lins', avatar_url: 'img/code_eater.png', location: 'São Paulo, Brazil' }
     showDetailsModal(mySelf);
   });

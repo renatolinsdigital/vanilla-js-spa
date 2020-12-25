@@ -1,2 +1,2 @@
-const $ = (e) => document.querySelector(e);
+const $ = (element) => document.querySelector(element);
 export default $;

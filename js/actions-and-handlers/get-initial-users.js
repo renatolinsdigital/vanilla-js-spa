@@ -12,8 +12,8 @@ const getInitialUsers = async () => {
     const allUsers = await fetchUsers();
     usersStore.setUsers(allUsers);
     attachCardsContainerHandlers(allUsers);
-  } catch (e) {
-    console.error(e);
+  } catch (error) {
+    console.error(error);
     return;
   } finally {
     progressBar.classList.remove('is-active');

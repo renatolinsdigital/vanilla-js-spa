@@ -25,8 +25,8 @@ const attachSearchEntriesHandlers = (searchEntries) => {
     searchLogContainer.innerHTML = entriesListView;
   }
 
-  searchLogContainer.addEventListener('click', (e) => {
-    const searchTerm = getTerm(e.target);
+  searchLogContainer.addEventListener('click', (event) => {
+    const searchTerm = getTerm(event.target);
     parent.location.hash = `#users/${searchTerm}`;
   });
 

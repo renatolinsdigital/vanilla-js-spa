@@ -30,8 +30,8 @@ const attachCardsContainerHandlers = (users) => {
 
   const usersLogins = users.map(user => user.login);
 
-  cardsContainer.addEventListener('click', async (e) => {
-    const userIdInCard = getCardId(e.target);
+  cardsContainer.addEventListener('click', async (event) => {
+    const userIdInCard = getCardId(event.target);
     if (usersLogins.includes(userIdInCard)) {
       progressBar.classList.remove('is-hidden');
       const userDetails = await fetchUsers(userIdInCard);

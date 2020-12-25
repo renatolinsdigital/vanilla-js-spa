@@ -19,12 +19,13 @@ const attachFilterHandlers = (searchTerm) => {
   if (!searchInput || !searchButton) return;
 
   if (searchTerm) {
+    searchInput.value = searchTerm;
     applyFilters(usersStore.getUsers(), searchTerm);
   }
 
-  searchInput.addEventListener('keydown', (e) => {
-    if (e.keyCode === 13) {
-      const searchTermInLowerCase = e.target.value.toLowerCase();
+  searchInput.addEventListener('keydown', (event) => {
+    if (event.keyCode === 13) {
+      const searchTermInLowerCase = event.target.value.toLowerCase();
       applyFilters(usersStore.getUsers(), searchTermInLowerCase);
     }
   });
