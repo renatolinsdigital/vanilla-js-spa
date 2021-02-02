@@ -19,11 +19,13 @@ Considering this project uses ES6 modules - that are subject to Same-origin poli
 ## Key features:
 
 - The app is fully responsive
+- A modularized yet minimalist code base achieved with ES6+ modules and template strings
 - Search log history can be used to trigger same searches again
 - Search log history is precisely dated, showing always the last searches
 - Search log is saved to local storage
 - Searching terms also works in the url
 - Routing between pages keeps navigation history 
+
 
 ## Project´s intentional restrictions:
 
@@ -33,13 +35,10 @@ Considering this project uses ES6 modules - that are subject to Same-origin poli
 - No Javascript or CSS processors/transpilers of any nature
 - No package managers(ex: npm, yarn)
 
-## What is allowed/recommended to have:
+## What was allowed:
 
 - A CSS framework with a design system approach
-- Including project´s css framework overrides for achieving desired look an feel 
-- A modularized yet minimalist code base achieved with ES6+ modules and template strings
-- Running a local host server as ES6+ modules require one
-- All app colors to be stored in variables
-- Any set of icons or images can be used, since they dont´t break restrictions above
-- Any Vanilla JS routing library you wish, as long as SPA behavior is fully implemented
+- Running a local host server(as ES6+ modules require one)
+- Any set of icons or images can be used, since they dont´t break project´s restrictions
+- A routing library(Also in Vanilla JS) for helping on SPA behaviors
 
