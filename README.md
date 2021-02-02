@@ -1,6 +1,6 @@
 # Vanilla Javascript SPA
 
-This project is about adding to my portfolio a Single Page Application built with just Vanilla JS. See this in action [here](https://vanilla-js-spa.doolien.repl.co).
+This project is about adding to my portfolio a Single Page Application(SPA) built with Vanilla Javascript. You can see it in action [here](https://vanilla-js-spa.doolien.repl.co).
 
 # Screenshots
 
@@ -26,18 +26,17 @@ Considering this project uses ES6 modules - that are subject to Same-origin poli
 - Searching terms also works in the url
 - Routing between pages keeps navigation history 
 
-
 ## Project´s intentional restrictions:
 
 - No Javascript frameworks
 - No DOM/UI libraries such as jQuery or Zepto
 - No bundlers like gulp or webpack
 - No Javascript or CSS processors/transpilers of any nature
-- No package managers(ex: npm, yarn)
+- No package managers like npm or yarn
 
 ## What was allowed:
 
 - A CSS framework with a design system approach, since it doesn´t break project´s restrictions
 - Running a local host server(as ES6+ modules require one)
-- A routing library(Also in Vanilla JS) for helping on SPA behaviors
+- A routing library(also in Vanilla JS) for helping on SPA behaviors
 
