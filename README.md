@@ -37,8 +37,7 @@ Considering this project uses ES6 modules - that are subject to Same-origin poli
 
 ## What was allowed:
 
-- A CSS framework with a design system approach
+- A CSS framework with a design system approach, since it doesn´t break project´s restrictions
 - Running a local host server(as ES6+ modules require one)
-- Any set of icons or images can be used, since they dont´t break project´s restrictions
 - A routing library(Also in Vanilla JS) for helping on SPA behaviors
 
