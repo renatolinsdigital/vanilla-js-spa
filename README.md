@@ -25,7 +25,7 @@ Considering this project uses ES6 modules - that are subject to Same-origin poli
 - Searching terms also works in the url
 - Routing between pages keeps navigation history 
 
-## Project intentional restrictions:
+## Project´s intentional restrictions:
 
 - No Javascript frameworks
 - No DOM/UI libraries such as jQuery or Zepto
