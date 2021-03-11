@@ -1,5 +1,5 @@
 
-const renderCardView = (user) => {
+const userCardView = (user) => {
   const { login, avatar_url, type } = user;
 
   return `<div class="card" id="${login}">
@@ -24,4 +24,4 @@ const renderCardView = (user) => {
           </div>`
 };
 
-export default renderCardView;
+export default userCardView;

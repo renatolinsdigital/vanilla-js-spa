@@ -1,4 +1,4 @@
-import renderCardView from '../views/user-card.js';
+import userCardView from '../views/user-card.js';
 import fetchUsers from '../services/users.service.js';
 import { showDetailsModal } from './modal.js';
 import $ from '../libs/dollar.js';
@@ -24,7 +24,7 @@ const attachCardsContainerHandlers = (users) => {
   if (users.length === 0) {
     cardsContainer.innerHTML = `<p class="no-users">No users found</p>`;
   } else {
-    const cardsListView = users.map((user) => renderCardView(user)).join('');
+    const cardsListView = users.map((user) => userCardView(user)).join('');
     cardsContainer.innerHTML = cardsListView;
   }
 
