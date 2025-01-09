@@ -1,6 +1,6 @@
 # Vanilla Javascript SPA
 
-This project is about adding to my portfolio a Single Page Application(SPA) built with Vanilla Javascript. You can see it in action [here](https://vanilla-js-spa.doolien.repl.co).
+This project is about adding to my portfolio a Single Page Application(SPA) built with Vanilla Javascript. You can see it in action [here](https://vanilla-js-spa.doolien.repl.co](https://vanilla-js-spa-git-master-renatolinsdigital.vercel.app).
 
 # Screenshots
 
@@ -20,10 +20,10 @@ Considering this project uses ES6 modules - that are subject to Same-origin poli
 
 - The app is fully responsive
 - A modularized yet minimalist code base achieved with ES6+ modules and template strings
-- Search log history can be used to trigger same searches again
+- Search log history can be used to trigger the same searches again
 - Search log history is precisely dated, showing always the last searches
 - Search log is saved to local storage
-- Searching terms also works in the url
+- Searching terms also works in the URL
 - Routing between pages keeps navigation history 
 
 ## Project´s intentional restrictions:
