@@ -1,6 +1,6 @@
 # Vanilla Javascript SPA
 
-This project is about adding to my portfolio a Single Page Application(SPA) built with Vanilla Javascript. You can see it in action [here](https://vanilla-js-spa.doolien.repl.co](https://vanilla-js-spa-git-master-renatolinsdigital.vercel.app).
+This project is about adding to my portfolio a Single Page Application(SPA) built with Vanilla Javascript. You can see it in action [here](https://vanilla-js-spa-git-master-renatolinsdigital.vercel.app).
 
 # Screenshots
 
